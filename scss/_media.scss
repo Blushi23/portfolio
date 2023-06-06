@@ -1,0 +1,39 @@
+@media(max-width:1555px, min-width:861px) {
+    .introTitle {
+        top: 35%;
+    }
+
+    .sub-text {
+        top: 55%;
+    }
+}
+
+@media(max-width:860px min-width:621px) {
+    .introTitle {
+        top: 35%;
+    }
+
+    .sub-text {
+        top: 50%;
+    }
+}
+
+@media(max-width:620px, min-width:431px) {
+    .introTitle {
+        top: 25%;
+    }
+
+    .sub-text {
+        top: 35%;
+    }
+}
+
+@media(max-width:430px) {
+    .introTitle {
+        top: 20%;
+    }
+
+    .sub-text {
+        top: 28%;
+    }
+}

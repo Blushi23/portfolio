@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100vw;
+    top: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data: image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' %3e%3cpath stroke='rgba%28255, 193, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+}
+
+header {
+    background-color: transparent;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    font-family: $navbarFont;
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 100vw;
+    transition: background-color 0.4s ease-in-out;
+
+}
+
+header.scrolled {
+    background-color: rgba(32, 9, 53, 0.9);
+}
+
+.container-fluid {
+    height: 4rem;
+    margin-top: 5px;
+}
+
+.navbar-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar-logo {
+    margin: 0 10px;
+}
+
+header nav {
+    padding: 1.5rem 0 1.5rem 5rem;
+}
+
+.nav-item a {
+    color: $titleColor;
+    font-size: 2rem;
+    font-family: $navbarFont;
+    letter-spacing: 1px;
+    margin: 0 15px;
+}
+
+.gradient-text {
+    background-color: rgb(243, 188, 7);
+    background-image: linear-gradient(45deg, rgb(252, 219, 3), rgb(169, 6, 190));
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header.scrolled nav a {
+    color: $titleColor;
+}
+
+footer {
+    background-color: rgba(32, 2, 59, 0.9);
+    color: rgb(243, 188, 7);
+    margin-bottom: 0;
+    text-align: center;
+    font-family: $writingFont;
+    font-weight: bold;
+    padding: 5px;
+    width: 100vw;
+}

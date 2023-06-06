@@ -1,0 +1,186 @@
+body {
+    background-color: #35dbc272;
+}
+
+.introTitle {
+    font-family: 'lobster';
+    letter-spacing: 0.8px;
+    -webkit-text-stroke: .9px rgb(245, 188, 44);
+    color: transparent;
+    font-size: 8vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 2px;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // mix-blend-mode: screen;
+}
+
+.sub-text {
+    font-family: $writingFont;
+    color: rgb(233, 114, 179);
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 2px;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+}
+
+.self-intro {
+    margin: 30px;
+    box-shadow: 0 3px 10px rgba(60, 4, 106, 0.569);
+    font-family: $writingFont;
+    background-color: #fff;
+}
+
+.self-intro h3 {
+    font-weight: bold;
+    font-family: $titleFont;
+}
+
+.self-intro .techs {
+    text-align: center;
+}
+
+.faceImg img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: -5px -5px 5px hsla(300, 96%, 10%, 0.303);
+    margin: 20px;
+}
+
+.aboutMe {
+    margin-top: 10px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.aboutMe h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.btn {
+    color: $deepPurple;
+    border: 1px solid $deepPurple;
+}
+
+.btn:hover {
+    color: #fff;
+    border: 1px solid $deepPurple;
+    background-color: $deepPurple;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    margin: 0 0 15px 15px;
+    text-align: center;
+}
+
+.skills h3 {
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.skills i {
+    color: $deepPurple;
+    font-size: 1.8rem;
+    // text-shadow: 2px 2px 2px #b9e0ed;
+    line-height: 2;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+
+.skills i:hover {
+    transform: scale(1.4);
+}
+
+#projects {
+    margin: 15px;
+}
+
+#projects h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: $titleFont;
+    font-size: 2.5rem;
+}
+
+#projects .row {
+    justify-content: space-evenly;
+}
+
+.contact-box {
+    background-image: url(/images/sparkle.jpeg);
+    width: 100vw;
+    line-height: 1;
+    margin: 0;
+}
+
+.contact-box h3 {
+    color: #fff;
+    font-family: $titleFont;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit {
+    color: #fff;
+    border: 1px solid #fff;
+    // width: 180px;
+}
+
+.submit:hover {
+    background-color: #35dbc2;
+}
+
+.socials i {
+    color: #35dbc2;
+    font-size: 5rem;
+    padding: 15px;
+}
+
+hr {
+    color: #fff;
+    margin: 5px;
+}
+
+.socials p {
+    color: #fff;
+    font-family: $writingFont;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-bottom: 10px;
+}

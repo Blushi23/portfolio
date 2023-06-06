@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+video {
+  width: 100vw;
+  top: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data: image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' %3e%3cpath stroke='rgba%28255, 193, 7, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  color: transparent;
+  border: transparent;
+}
+
+header {
+  background-color: transparent;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  font-family: "passion one";
+  font-weight: bold;
+  font-size: 1.3rem;
+  width: 100vw;
+  transition: background-color 0.4s ease-in-out;
+}
+
+header.scrolled {
+  background-color: rgba(32, 9, 53, 0.9);
+}
+
+.container-fluid {
+  height: 4rem;
+  margin-top: 5px;
+}
+
+.navbar-logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-logo {
+  margin: 0 10px;
+}
+
+header nav {
+  padding: 1.5rem 0 1.5rem 5rem;
+}
+
+.nav-item a {
+  color: rgb(255, 193, 7);
+  font-size: 2rem;
+  font-family: "passion one";
+  letter-spacing: 1px;
+  margin: 0 15px;
+}
+
+.gradient-text {
+  background-color: rgb(243, 188, 7);
+  background-image: linear-gradient(45deg, rgb(252, 219, 3), rgb(169, 6, 190));
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header.scrolled nav a {
+  color: rgb(255, 193, 7);
+}
+
+footer {
+  background-color: rgba(32, 2, 59, 0.9);
+  color: rgb(243, 188, 7);
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  width: 100vw;
+}
+
+body {
+  background-color: rgba(53, 219, 194, 0.4470588235);
+}
+
+.introTitle {
+  font-family: "lobster";
+  letter-spacing: 0.8px;
+  -webkit-text-stroke: 0.9px rgb(245, 188, 44);
+  color: transparent;
+  font-size: 8vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 2px;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sub-text {
+  font-family: "Signika", sans-serif;
+  color: rgb(233, 114, 179);
+  font-size: 4vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 2px;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+
+.self-intro {
+  margin: 30px;
+  box-shadow: 0 3px 10px rgba(60, 4, 106, 0.569);
+  font-family: "Signika", sans-serif;
+  background-color: #fff;
+}
+
+.self-intro h3 {
+  font-weight: bold;
+  font-family: "Lilita One", cursive;
+}
+
+.self-intro .techs {
+  text-align: center;
+}
+
+.faceImg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: -5px -5px 5px hsla(300, 96%, 10%, 0.303);
+  margin: 20px;
+}
+
+.aboutMe {
+  margin-top: 10px;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.aboutMe h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.btn {
+  color: rgb(101, 34, 135);
+  border: 1px solid rgb(101, 34, 135);
+}
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid rgb(101, 34, 135);
+  background-color: rgb(101, 34, 135);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  margin: 0 0 15px 15px;
+  text-align: center;
+}
+
+.skills h3 {
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.skills i {
+  color: rgb(101, 34, 135);
+  font-size: 1.8rem;
+  line-height: 2;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.skills i:hover {
+  transform: scale(1.4);
+}
+
+#projects {
+  margin: 15px;
+}
+
+#projects h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Lilita One", cursive;
+  font-size: 2.5rem;
+}
+
+#projects .row {
+  justify-content: space-evenly;
+}
+
+.contact-box {
+  background-image: url(/images/sparkle.jpeg);
+  width: 100vw;
+  line-height: 1;
+  margin: 0;
+}
+
+.contact-box h3 {
+  color: #fff;
+  font-family: "Lilita One", cursive;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.submit {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.submit:hover {
+  background-color: #35dbc2;
+}
+
+.socials i {
+  color: #35dbc2;
+  font-size: 5rem;
+  padding: 15px;
+}
+
+hr {
+  color: #fff;
+  margin: 5px;
+}
+
+.socials p {
+  color: #fff;
+  font-family: "Signika", sans-serif;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 5%);
+}
+
+.container__progressbars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.progressbar {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  transform: rotate(-90deg);
+}
+
+.progressbar__svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progressbar__svg-circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke: #f0e2f4;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+.shadow-html {
+  filter: drop-shadow(0 0 5px hsl(0, 100%, 51%));
+}
+.shadow-css {
+  filter: drop-shadow(0 0 5px hsl(233, 96%, 50%));
+}
+.shadow-scss {
+  filter: drop-shadow(0 0 5px hsl(310, 100%, 60%));
+}
+.shadow-js {
+  filter: drop-shadow(0 0 5px hsl(60, 79%, 44%));
+}
+.shadow-ts {
+  filter: drop-shadow(0 0 5px hsl(187, 97%, 47%));
+}
+.shadow-bootstrap {
+  filter: drop-shadow(0 0 5px hsl(283, 95%, 50%));
+}
+
+.circle-html {
+  animation: anim_circle-html 1s ease-in-out forwards;
+}
+.circle-css {
+  animation: anim_circle-css 1s ease-in-out forwards;
+}
+.circle-scss {
+  animation: anim_circle-scss 1s ease-in-out forwards;
+}
+.circle-js {
+  animation: anim_circle-js 1s ease-in-out forwards;
+}
+.circle-ts {
+  animation: anim_circle-ts 1s ease-in-out forwards;
+}
+.circle-bootstrap {
+  animation: anim_circle-bootstrap 1s ease-in-out forwards;
+}
+
+.progressbar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.25em 0.5em;
+  color: #2f023c;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 44;
+  }
+}
+@keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 44;
+  }
+}
+@keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 66;
+  }
+}
+@keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 110;
+  }
+}
+@keyframes anim_circle-ts {
+  to {
+    stroke-dashoffset: 110;
+  }
+}
+@keyframes anim_circle-bootstrap {
+  to {
+    stroke-dashoffset: 44;
+  }
+}
+.market-page {
+  background-color: #f9c5c7;
+}
+
+.marketLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.market-page .navbar a {
+  color: #141445;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.carousel-item img {
+  max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-item h5 {
+  color: #010136;
+  text-shadow: 2px 2px 2px #474750;
+}
+
+.alert {
+  background-color: rgba(247, 74, 195, 0.4666666667);
+}
+
+.modalContainer {
+  margin: 20px;
+}/*# sourceMappingURL=main.css.map */
