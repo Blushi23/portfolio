@@ -5,8 +5,7 @@
 
 <h3>About Me</h3>
 My name is Michal Duvidzon, a full stack web development student and a clinical dietitian. <br> 
-I have a passion for [specific skills/interests] and love creating innovative solutions. <br> 
-Throughout my career, I have gained expertise in [mention key areas of expertise or relevant experience]. <br> 
+I have a passion for design, art, perfecting the users experience and love creating innovative solutions. <br> 
 This portfolio website serves as a testament to my skills and showcases some of my notable projects.
 
 <h3>Projects</h3>
