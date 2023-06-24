@@ -61,13 +61,12 @@
         <h3 class="sub-text">Full Stack Web Developer</h3>
     </div>
     <video autoplay loop muted>
-        <source class="background-video mb-5" src="images/fairyTaleBackground.mp4" type="video/mp4">
+        <source class="background-video" src="images/fairyTaleBackground.mp4" type="video/mp4">
     </video>
 
     <!-- About me -->
-    <div id="about"></div>
-    <div class="self-intro">
-        <div class="row mt-5">
+    <div class="self-intro" id="about">
+        <div class="row">
             <div class="col-md-3 col-sm-4 faceImg"><img src="images/face.jpg" alt="faceImg"></div>
             <div class="col-md-3 col-sm-8 info">
                 <p><b>Full name:</b> Michal Duvidzon</p>
@@ -163,13 +162,10 @@
     </div>
 
     <!-- projects -->
-    <div id="projects"></div>
-    <div class="projects">
-        <h3>Projects
-            <hr>
-        </h3>
-        <div class="row m-3">
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+    <div id="projects">
+        <h3>Projects</h3>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
                 <div class="card" style="width: 18rem;">
                     <img src="images/marketTour.jpg" class="card-img-top" alt="marketTour">
                     <div class="card-body">
@@ -187,7 +183,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="col-md-3 col-sm-12">
                 <div class="card" style="width: 18rem;">
                     <img src="/images/weddingBudget.jpg.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -205,8 +201,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card " style="width: 18rem;">
+            <div class="col-md-3 col-sm-12">
+                <div class="card" style="width: 18rem;">
                     <img src="/images/weddingChecklist.png" class="card-img-top " alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Wedding Plan Checklist</h5>
@@ -228,11 +224,12 @@
     </div>
 
     <!-- contact -->
+    <!-- <div id="contact"> -->
     <div class="contact-box">
         <div class="row">
             <div class="col-md-6 ms-3">
                 <h3>Want to contact me?</h3>
-                <form id="contact" class="me-4 md-ms-1" onsubmit="return validate();">
+                <form id="contact" onsubmit="return validate();">
                     <div class="input">
                         <input type="text" name="name" id="name" placeholder="Full name" class="form-control">
                     </div>
@@ -277,6 +274,7 @@
             </div>
         </div>
     </div>
+    <!-- </div> -->
 
     <footer>
         &copy;Michal Duvidzon

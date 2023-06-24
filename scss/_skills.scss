@@ -46,7 +46,6 @@ $porcent-bootstrap: 90;
     position: relative;
     width: 170px;
     height: 170px;
-    // margin: 1em;
     margin-bottom: 20px;
     margin-right: 20px;
     transform: rotate(-90deg);
@@ -65,10 +64,9 @@ $porcent-bootstrap: 90;
     stroke-width: 10;
     stroke-dasharray: 440;
     stroke-dashoffset: 440;
-    // stroke: $color-black;
     stroke: #f0e2f4;
     stroke-linecap: round;
-    transform: translate(5px, 5px); // stroke-width / 2
+    transform: translate(5px, 5px);
 }
 
 .shadow {
@@ -130,7 +128,6 @@ $porcent-bootstrap: 90;
     top: 50%;
     left: 50%;
     padding: 0.25em 0.5em;
-    // color: $color-black;
     color: #2f023c;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 0.25em;

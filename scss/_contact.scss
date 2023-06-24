@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    background-image: url(/images/sparkle.jpeg);
+    width: 100vw;
+    line-height: 1;
+}
+
+.contact-box h3 {
+    color: #fff;
+    font-family: $titleFont;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+
+.contact-box .btn-submit input[type="submit"] {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    width: 70px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-box .btn-submit input[type="submit"]:hover {
+    background-color: #35dbc2;
+}
+
+#error_message {
+    background: #c3070dea;
+    color: #fff;
+    font-family: $titleFont;
+    font-weight: normal;
+    border-radius: 5px;
+    letter-spacing: .5px;
+    font-size: 1.2rem;
+    padding: 0;
+    text-align: center;
+    transition: all 0.5s ease;
+}

@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
-video {
-    width: 100vw;
-    top: 0;
 }
 
 .navbar-toggler-icon {
@@ -14,7 +10,6 @@ video {
 }
 
 .navbar-toggler {
-    background-color: transparent;
     color: transparent;
     border: transparent;
 }
@@ -28,37 +23,44 @@ header {
     top: 0;
     font-family: $navbarFont;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: .8rem;
     width: 100vw;
     transition: background-color 0.4s ease-in-out;
+}
 
+#about,
+#projects {
+    background: transparent;
+    padding: 20px;
 }
 
 header.scrolled {
     background-color: rgba(32, 9, 53, 0.9);
+    box-shadow: 0 0 20px #cf9af1;
 }
 
 .container-fluid {
-    height: 4rem;
+    height: 2rem;
     margin-top: 5px;
 }
 
 .navbar-logo img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
 }
 
 .navbar-logo {
     margin: 0 10px;
 }
 
-header nav {
-    padding: 1.5rem 0 1.5rem 5rem;
+.navbar {
+    justify-content: flex-end;
 }
 
 .nav-item a {
     color: $titleColor;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: $navbarFont;
     letter-spacing: 1px;
     margin: 0 15px;
@@ -74,7 +76,12 @@ header nav {
 }
 
 header.scrolled nav a {
-    color: $titleColor;
+    color: $deepPurple;
+}
+
+video {
+    width: 100vw;
+    top: 0;
 }
 
 footer {
@@ -86,4 +93,20 @@ footer {
     font-weight: bold;
     padding: 5px;
     width: 100vw;
+}
+
+@media(max-width:991px) {
+    .nav-item a {
+        line-height: 1;
+    }
+
+    .navbar-collapse {
+        background: rgba(32, 9, 53, 0.9);
+        margin-top: 1.5px;
+    }
+
+    .navbar-logo img {
+        width: 50px;
+        height: 50px;
+    }
 }
